@@ -54,9 +54,9 @@ public class Movimientos {
         for (int i = 0; i < movi_1.length; i++) {
             movi_2 = movi_1[i].split(",");
             punto = Integer.parseInt(movi_2[0]);
-            if (punto_plano[0] == 0 && punto_plano[1] == 0) {
-                punto = punto - 1;
-            }
+            //if (punto_plano[0] == 0 && punto_plano[1] == 0) {
+            punto = punto - 1;
+         //   }
             if (punto_plano[1] > 0 && punto_plano[0] > 0) {
             }
             if (movi_2[1].equals("N") || movi_2[1].equals("n")) {
